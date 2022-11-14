@@ -1,6 +1,6 @@
 # TCKimlikNo
 
-Turkish Identification Number Verification & Validation Package for NodeJs. This package is created using <a href="https://github.com/deligoez/tckimlikno">https://github.com/deligoez/tckimlikno</a>
+Turkish Identification Number Verification & Validation Package for NodeJs. This package is inspired by <a href="https://github.com/deligoez/tckimlikno">https://github.com/deligoez/tckimlikno</a>
 
 # Installation
 
