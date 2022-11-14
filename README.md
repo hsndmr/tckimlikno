@@ -5,13 +5,13 @@ Turkish Identification Number Verification & Validation Package for NodeJs. This
 # Installation
 
 ```bash
-npm i tc-kimlik-no
+npm i @demirjs/tckimlikno
 ```
 
 # Usage
 
 ```bash
-import {validateTcKimlikNo} from 'tc-kimlik-no'
+import {validateTcKimlikNo} from '@demirjs/tckimlikno'
 
 validateTcKimlikNo({
     name: 'yourName',
@@ -26,7 +26,7 @@ validateTcKimlikNo({
 If you want to verify only `tcKimlikNo` you could validate it using `verifyTcKimlikNo` function. You could use it for `tcKimlikNo` rule.
 
 ```bash
-import {verifyTcKimlikNo} from 'tc-kimlik-no'
+import {verifyTcKimlikNo} from '@demirjs/tckimlikno'
 
 console.log(verifyTcKimlikNo('12345678901')) // false
 console.log(verifyTcKimlikNo('10000000146')) // true
