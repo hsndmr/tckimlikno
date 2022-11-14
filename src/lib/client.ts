@@ -1,8 +1,9 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
+import { BaseClient } from './client.interface';
 import { TCKimlikNoValidate } from './tc-kimlik-no-validate.interface';
 
-export class Client {
+export class Client implements BaseClient {
   _axiosInstance: AxiosInstance;
 
   constructor() {
@@ -12,7 +13,7 @@ export class Client {
     });
   }
 
-  post(args: TCKimlikNoValidate): Promise<string> {
+  post(args: TCKimlikNoValidate): Promise<AxiosResponse> {
     return this._axiosInstance.post('', this.getBody(args));
   }
 
