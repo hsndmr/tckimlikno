@@ -1,7 +1,7 @@
 import { BaseClient } from './client.interface';
 import { TCKimlikNoValidate } from './tc-kimlik-no-validate.interface';
 
-interface ValidateArgs extends TCKimlikNoValidate {
+export interface ValidateArgs extends TCKimlikNoValidate {
   autoUppercase?: boolean;
 }
 
