@@ -17,7 +17,7 @@ describe('Client', () => {
     birthYear: 2000,
   };
 
-  it('should be defined', async () => {
+  it('post method should return value', async () => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (axios.create as any).mockReturnValue(new AxiosMock());
 
