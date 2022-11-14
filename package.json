@@ -1,5 +1,5 @@
 {
-  "name": "tc-kimlik-no",
+  "name": "@demirjs/tckimlikno",
   "version": "1.0.3",
   "description": "Turkish Identification Number Verification & Validation Package for Nodejs.",
   "main": "build/main/index.js",
