@@ -1,6 +1,6 @@
 {
   "name": "@demirjs/tckimlikno",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Turkish Identification Number Verification & Validation Package for Nodejs.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
